@@ -75,6 +75,14 @@
   padding-bottom: 20px;
 }
 
+.member-comment .inner-wrap .text-wrap blockquote svg {
+  width: 40px;
+}
+
+.member-comment .inner-wrap .text-wrap blockquote svg path {
+  fill: #7918ee;
+}
+
 .member-comment .inner-wrap .text-wrap p {
   font-size: 24px;
   font-weight: 400;
@@ -83,12 +91,19 @@
   padding-bottom: 20px;
 }
 
-.member-comment .inner-wrap .text-wrap details,
+.member-comment .inner-wrap .text-wrap details {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #b4b4b6;
+}
+
 .member-comment .inner-wrap .text-wrap summary {
   font-size: 24px;
   font-weight: 400;
   line-height: 160%;
   color: #b4b4b6;
+  cursor: pointer;
 }
 
 .member-comment .inner-wrap .text-wrap h3 {
