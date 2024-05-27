@@ -27,6 +27,7 @@
   max-width: 1290px;
   padding: 0 30px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .member-comment .inner-wrap .image-wrap {
@@ -174,6 +175,7 @@
   gap: 60px;
   align-items: start;
   width: 100%;
+  flex-wrap: wrap;
   max-width: 1290px;
   margin: 0 auto;
   padding: 0 30px;
@@ -191,7 +193,7 @@
   width: 50%;
   word-break: keep-all;
   color: #359f8a;
-  padding: 30px 0;
+  padding: 0 15px;
 }
 
 #lua .inner-wrap .text-wrap h1 {
@@ -211,4 +213,86 @@
 #lua .inner-wrap .text-wrap p {
   font-size: 38px;
   line-height: 160%;
+}
+
+@media all and (max-width: 380px) {
+  .member-comment {
+    padding: 0;
+  }
+
+  .member-comment .inner-wrap .image-wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  .member-comment .inner-wrap .text-wrap {
+    width: 100%;
+    padding: 0;
+  }
+
+  .member-comment:first-child {
+    padding-top: 30px;
+  }
+
+  .member-comment:last-child {
+    padding-bottom: 90px;
+  }
+
+  .member-comment:nth-child(even) .inner-wrap {
+    flex-direction: column-reverse;
+  }
+
+  .member-comment .inner-wrap .text-wrap h2 {
+    font-size: 20px;
+  }
+
+  .member-comment .inner-wrap .text-wrap small,
+  .member-comment .inner-wrap .text-wrap p,
+  .member-comment .inner-wrap .text-wrap details,
+  .member-comment .inner-wrap .text-wrap summary,
+  .member-comment .inner-wrap .text-wrap ul li {
+    font-size: 16px;
+  }
+
+  .member-comment .inner-wrap .text-wrap h3 {
+    font-size: 18px;
+  }
+
+  .member-comment .inner-wrap .text-wrap blockquote svg {
+    width: 30px;
+  }
+
+  #together ul li {
+    width: 50%;
+  }
+
+  #lua {
+    padding-top: 30px;
+  }
+
+  #lua .inner-wrap {
+    padding-top: 30px;
+  }
+
+  #lua .inner-wrap .image-wrap {
+    width: 100%;
+  }
+
+  #lua .inner-wrap .text-wrap {
+    width: 100%;
+  }
+
+  #lua .inner-wrap .text-wrap h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+
+  #lua .inner-wrap .text-wrap h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+
+  #lua .inner-wrap .text-wrap p {
+    font-size: 24px;
+  }
 }
