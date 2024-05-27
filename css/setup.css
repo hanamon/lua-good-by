@@ -5,6 +5,7 @@
   text-decoration: none;
   border: none;
   line-height: 0;
+  box-sizing: border-box;
 }
 
 ul,
