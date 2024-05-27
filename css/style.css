@@ -1,5 +1,6 @@
 .member-comment {
   color: #fff;
+  padding: 60px 0;
 }
 
 .member-comment:first-child {
@@ -7,7 +8,7 @@
 }
 
 .member-comment:last-child {
-  padding-bottom: 120px;
+  padding-bottom: 180px;
 }
 
 .member-comment:nth-child(odd) {
@@ -124,36 +125,36 @@
   padding-bottom: 20px;
 }
 
-.together {
+#together {
   width: 100%;
 }
 
-.together ul {
+#together ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-.together ul li {
+#together ul li {
   position: relative;
   width: 25%;
 }
 
-.together ul li div {
+#together ul li div {
   position: relative;
   width: 100%;
   padding-top: 100%;
   overflow: hidden;
 }
 
-.together ul li:nth-child(odd) div {
+#together ul li:nth-child(odd) div {
   background: linear-gradient(40deg, #4c7cc8, #80689d);
 }
 
-.together ul li:nth-child(even) div {
+#together ul li:nth-child(even) div {
   background: linear-gradient(-40deg, #80689d, #315e73);
 }
 
-.together ul li div img {
+#together ul li div img {
   position: absolute;
   top: 0;
   left: 0;
