@@ -27,7 +27,6 @@
   max-width: 1290px;
   padding: 0 30px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .member-comment .inner-wrap .image-wrap {
@@ -175,7 +174,6 @@
   gap: 60px;
   align-items: start;
   width: 100%;
-  flex-wrap: wrap;
   max-width: 1290px;
   margin: 0 auto;
   padding: 0 30px;
@@ -215,9 +213,13 @@
   line-height: 160%;
 }
 
-@media all and (max-width: 380px) {
+@media all and (max-width: 580px) {
   .member-comment {
     padding: 0;
+  }
+
+  .member-comment .inner-wrap {
+    flex-wrap: wrap;
   }
 
   .member-comment .inner-wrap .image-wrap {
@@ -272,6 +274,7 @@
 
   #lua .inner-wrap {
     padding-top: 30px;
+    flex-wrap: wrap;
   }
 
   #lua .inner-wrap .image-wrap {

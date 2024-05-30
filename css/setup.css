@@ -8,8 +8,7 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   overflow: hidden;
   overflow-y: scroll;
 }
